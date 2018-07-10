@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h3.
+      node 爬虫；
+  ul
+    - var arr=JSON.parse(title);
+    - each job in arr
+      li 
+        a(href=job.pic_href)=job.pic_message
+      
