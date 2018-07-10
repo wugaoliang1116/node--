@@ -39,6 +39,7 @@ http.get(url, function (res) {  //发送get请求
         if (err) {
           return console.error(err);
         }
+        
         // console.log("异步读取文件数据: " + data.toString());
       });
     });
